@@ -23,7 +23,7 @@ func Task1(input []int) int {
 }
 
 func main() {
-	fmt.Println(Task1([]int{1, 3, 6, 4, 1, 2}))
-	fmt.Println(Task1([]int{1, 2, 3}))
-	fmt.Println(Task1([]int{-1, -3}))
+	fmt.Println(Task1([]int{1, 3, 6, 4, 1, 2})) //5
+	fmt.Println(Task1([]int{1, 2, 3}))          //4
+	fmt.Println(Task1([]int{-1, -3}))           //1
 }
